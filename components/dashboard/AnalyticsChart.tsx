@@ -13,18 +13,18 @@ import {
 } from 'recharts';
 
 const data = [
-  { month: 'Jan', view: 52, sale: 88 },
-  { month: 'Feb', view: 40, sale: 72 },
-  { month: 'Mar', view: 50, sale: 80 },
-  { month: 'Apr', view: 52, sale: 95 },
-  { month: 'May', view: 50, sale: 92 },
-  { month: 'Jun', view: 58, sale: 82 },
-  { month: 'Jul', view: 55, sale: 100 },
-  { month: 'Aug', view: 60, sale: 88 },
-  { month: 'Sep', view: 55, sale: 110 },
-  { month: 'Oct', view: 62, sale: 90 },
-  { month: 'Nov', view: 50, sale: 62 },
-  { month: 'Dec', view: 58, sale: 65 },
+  { month: 'Jan', view: 25, sale: 88 },
+  { month: 'Feb', view: 52, sale: 72 },
+  { month: 'Mar', view: 60, sale: 80 },
+  { month: 'Apr', view: 69, sale: 95 },
+  { month: 'May', view: 72, sale: 92 },
+  { month: 'Jun', view: 78, sale: 82 },
+  { month: 'Jul', view: 83, sale: 100 },
+  { month: 'Aug', view: 50, sale: 88 },
+  { month: 'Sep', view: 40, sale: 110 },
+  { month: 'Oct', view: 30, sale: 90 },
+  { month: 'Nov', view: 20, sale: 62 },
+  { month: 'Dec', view: 10, sale: 65 },
 ];
 
 const AnalyticsChart = () => {

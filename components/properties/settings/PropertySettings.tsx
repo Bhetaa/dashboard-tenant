@@ -79,7 +79,7 @@ const AddProperty: React.FC<AddPropertyProps> = ({ onAddProperty, onCancel }) =>
                     <div className="grid flex-1 grid-cols-1 gap-5 sm:grid-cols-2">
                         <div className="mb-2">
                             <label className="block">Nama Property</label>
-                            <input type="text" placeholder="Hikmal Chalabi" name="name" value={newProperty.name} onChange={handleInputChange} className="w-full bg-transparent rounded border p-2" />
+                            <input type="text" placeholder="Red House Villa" name="name" value={newProperty.name} onChange={handleInputChange} className="w-full bg-transparent rounded border p-2" />
                         </div>
                         <div className="mb-2">
                             <label className="block">Lokasi</label>

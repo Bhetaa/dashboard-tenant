@@ -83,7 +83,7 @@ const AddProperty: React.FC<AddPropertyProps> = ({ onAddProperty, onCancel }) =>
                         </div>
                         <div className="mb-2">
                             <label className="block">Denda</label>
-                            <input type="text" name="price" value={newProperty.denda} onChange={handleInputChange} className="w-full rounded border bg-transparent p-2" />
+                            <input type="text" name="denda" value={newProperty.denda} onChange={handleInputChange} className="w-full rounded border bg-transparent p-2" />
                         </div>
                         <div className="mb-2">
                             <label className="block">Tanggal</label>

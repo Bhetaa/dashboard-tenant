@@ -23,7 +23,6 @@ const SignIn = () => {
                                 <p className="text-base font-bold leading-normal text-white-dark">Enter your email and password to login</p>
                             </div>
                             <AuthLoginForm />
-
                             <div className="mb-10 md:mb-[60px]">
                             </div>
                             <div className="text-center dark:text-white">

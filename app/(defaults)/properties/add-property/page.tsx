@@ -1,5 +1,4 @@
 'use client';
-import { Metadata } from 'next';
 import React, { useState } from 'react';
 import AddProperty from '@/components/properties/add-property/page';
 import { useRouter } from 'next/navigation';
